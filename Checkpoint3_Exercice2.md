@@ -94,16 +94,16 @@ Pour Bareos File Daemon, ce composant de Bareos est en charge de la collecte des
 ### Q.2.5.1 Règles actuellement appliquées sur Netfilter:
   
 ![](images/Q.2.5.1.png)
-  
-### Q.2.5.2 Types de communications autorisées sont:
+
+### Q.2.5.2 Types de communications autorisées sont:
   
 Les communications autorisées sont les paquets ICMP IPv4 et IPv6 entrant, la connexion entrante en SSH sur le port 22, le trafic de la boucle local, le trafic entrant des connexions TCP déjà établies ou liées à une connexion existante. 
   
 ### Q.2.5.3 Types de communication interdites ?
   
-Par défaut tout les trafics qui ne sont pas cité dans la réponse précédente sont bloqués. On peux voir dans les règles une précision supplémentaire concernant les paquets provenant de connexions TCP déjà établies et avec un état INVALIDE qui sont spécifiquement bloqués.
+Par défaut tout les trafics qui ne sont pas cité dans la réponse précédente sont bloqués. On peux voir dans les règles une précision supplémentaire concernant les paquets provenant de connexions TCP déjà établies et avec un état INVALIDE qui sont spécifiquement bloqués.  
   
-### Q.2.5.4 Ajout des règles pour autoriser Bareos à communiquer avec les clients bareos:
+### Q.2.5.4 Ajout des règles pour autoriser Bareos à communiquer avec les clients bareos:
 la règle ajouté pour permettre le trafic sur le réseau local de bareos porte le "handle 11"
   
 ![](images/Q.2.5.4.png)
