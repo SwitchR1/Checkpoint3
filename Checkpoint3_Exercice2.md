@@ -7,7 +7,7 @@
 ![crateUser](images/Q.2.1.1.png)
   
 ### Q.2.1.2 Recommandation:
- Il est recommandé d'utiliser un mot de passe fort, et de limiter l'accès au seul ressources utiles à l'utilisateur (application du moindre privilège).
+ Il est recommandé d'utiliser un mot de passe fort, et de limiter l'accès au seul ressources utiles à l'utilisateur (application du moindre privilège), donc ne pas intégrer au groupe sudo.
   
   
 ## 2 Configuration SSH 
