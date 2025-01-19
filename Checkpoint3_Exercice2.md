@@ -54,9 +54,11 @@ Sur le serveur on trouve un stockage de type RAID (Redundant Array of Independen
 ### Q.2.3.3 Réparation RAID 
   
 Ajout disque 8G
+  
 ![](images/Q.2.3.3_01.png)
   
 Réparation du RAID
+  
 ![](images/Q.2.3.3.png)
   
 ### Q.2.3.4 Ajout d'un nouveau volume logique
