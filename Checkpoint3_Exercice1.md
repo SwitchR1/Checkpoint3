@@ -11,7 +11,7 @@
   
 ### Q.1.1.2 création OU DeactivatedUsers
   
-![crateOU](images/01Q.1.1.2.png)
+![crateOU](images/Q.1.1.2.png)
   
   
 ### Q.1.1.3 modification groupe de l'OU Direction Ressources Humaines
